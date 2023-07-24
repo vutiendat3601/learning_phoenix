@@ -1,0 +1,7 @@
+$ mix phx.new auction
+$ iex -S mix phx.server
+$ mix ecto.create
+$ mix ecto.gen.migration create_items
+$ mix ecto.migrations
+$ mix ecto.migrate
+$ mix ecto.rollback
